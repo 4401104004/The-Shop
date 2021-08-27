@@ -35,15 +35,19 @@
     cursor: pointer;
 }
 
-.details__list-app{
-    padding: 0;
-}
+
 
 .details__list-app{
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    padding-left: 0;
+    max-width: 500px;
+    overflow-x:auto ;
 
+}
+.details__list-app-item{
+    flex-shrink: 0;
+    margin: 0 10px;
 }
 
 
@@ -184,8 +188,9 @@
 }
 .details__text-btn{
     margin-top: 20px;
+    
 }
-.details__text-btn-add{
+.details__text-btn-add{  
     color: var(--primary-color);
     border:1px solid var(--primary-color);
 }

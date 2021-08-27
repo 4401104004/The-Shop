@@ -75,6 +75,20 @@
     .details__content-text{
         margin: 0 !important;
     }
+
+    .details__text-price {
+        margin-top: 30px;
+    }
+    .details__text-btn{
+        position: fixed;
+        
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: var(--header-sort-bar-height);
+        background-color: var(--white-color);
+        margin: 0;
+    }
     
     
 }
