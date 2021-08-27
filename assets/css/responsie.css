@@ -1,4 +1,9 @@
 /* Mobile & Tablet */
+@media (min-width: 1024px) {
+    .hide-pc{
+        display: none;
+    }
+}
 @media (max-width:1023px){
     
     .hide-on-mobile-tablet{
@@ -45,6 +50,30 @@
     .header__mobile-btn{
         width: 28px;
         margin-top: 0px;
+    }
+    /*Chi tiet san pham */
+   
+
+    .app__details{
+    padding-top: 36px;
+    margin-top: calc(var(--header-height) + var(--header-sort-bar-height) ) ;
+    
+    }
+    .details__content-list{
+       text-align: center;
+       
+    }
+    .details .details__content-tittle-home a{
+        font-size: 2.5rem; 
+    }
+    .details__content{
+        flex-direction: column-reverse;
+    }
+    .details__text-table{
+        display: none;
+    }
+    .details__content-text{
+        margin: 0 !important;
     }
     
     
@@ -159,9 +188,14 @@
         padding: 4px;
     }
 
+    /* Chi tiet san pham */
     
-
-    
+    .details-img{
+        width: 100%;
+    }
+     .details__text-price{
+        padding: 0 !important;
+    }
 
     
     

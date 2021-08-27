@@ -1078,6 +1078,9 @@
     background-size: contain;
     background-position: center;
 }
+.home-product-item--link{
+    text-decoration: none;
+}
 .home-product-item__name{
     margin: 10px 10px 10px 6px;
     font-size: 1.4rem;
@@ -1269,7 +1272,7 @@ i.home-product-item__like-icon-fill{
     transform: translateX(-100%);
     opacity: 0;
     transition: transform linear 0.3s, opacity linear 0.3s;
-    
+    z-index: 3;
 }
 .header__mobile-list{
     margin-top: 46px;
@@ -1369,3 +1372,5 @@ i.home-product-item__like-icon-fill{
     -webkit-tap-highlight-color: transparent;
     padding: 0 8px;
 }
+
+
